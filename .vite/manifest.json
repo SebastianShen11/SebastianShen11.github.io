@@ -1,0 +1,113 @@
+{
+  "_PlainLink-DVbiTTx-.js": {
+    "file": "_next/static/chunks/PlainLink-DVbiTTx-.js",
+    "name": "PlainLink",
+    "imports": [
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "_data-D_G4GALZ.js": {
+    "file": "_next/static/chunks/data-D_G4GALZ.js",
+    "name": "data"
+  },
+  "_framework-BgSIrAUN.js": {
+    "file": "_next/static/chunks/framework-BgSIrAUN.js",
+    "name": "framework",
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js"
+    ]
+  },
+  "_rolldown-runtime-C60lm6uB.js": {
+    "file": "_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+    "name": "rolldown-runtime"
+  },
+  "app/CartContext.tsx": {
+    "file": "_next/static/chunks/CartContext-CF_5imb0.js",
+    "name": "CartContext",
+    "src": "app/CartContext.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_data-D_G4GALZ.js",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "app/SiteChrome.tsx": {
+    "file": "_next/static/chunks/SiteChrome-RpLTYnPO.js",
+    "name": "SiteChrome",
+    "src": "app/SiteChrome.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "app/CartContext.tsx",
+      "_PlainLink-DVbiTTx-.js",
+      "_data-D_G4GALZ.js",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "app/cart/CartPage.tsx": {
+    "file": "_next/static/chunks/CartPage-p2y15Fh5.js",
+    "name": "CartPage",
+    "src": "app/cart/CartPage.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "app/CartContext.tsx",
+      "_PlainLink-DVbiTTx-.js",
+      "_data-D_G4GALZ.js",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "app/products/[slug]/ProductPurchase.tsx": {
+    "file": "_next/static/chunks/ProductPurchase-CGVHk3-v.js",
+    "name": "ProductPurchase",
+    "src": "app/products/[slug]/ProductPurchase.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "app/CartContext.tsx",
+      "_data-D_G4GALZ.js",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "app/shop/ShopClient.tsx": {
+    "file": "_next/static/chunks/ShopClient-CWhPBsgi.js",
+    "name": "ShopClient",
+    "src": "app/shop/ShopClient.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_PlainLink-DVbiTTx-.js",
+      "_data-D_G4GALZ.js",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "node_modules/.pnpm/vinext@1.0.0-beta.2_@vitejs_74d46f65f8411dc445fb8247cb7d8d2b/node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "_next/static/chunks/layout-segment-context-DlYO6mqn.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/.pnpm/vinext@1.0.0-beta.2_@vitejs_74d46f65f8411dc445fb8247cb7d8d2b/node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-BgSIrAUN.js"
+    ]
+  },
+  "virtual:vinext-app-browser-entry": {
+    "file": "_next/static/chunks/index-B5KDCdHd.js",
+    "name": "index",
+    "src": "virtual:vinext-app-browser-entry",
+    "isEntry": true,
+    "imports": [
+      "_rolldown-runtime-C60lm6uB.js",
+      "_framework-BgSIrAUN.js"
+    ],
+    "dynamicImports": [
+      "virtual:vinext-app-browser-entry",
+      "node_modules/.pnpm/vinext@1.0.0-beta.2_@vitejs_74d46f65f8411dc445fb8247cb7d8d2b/node_modules/vinext/dist/shims/layout-segment-context.js",
+      "app/SiteChrome.tsx",
+      "app/products/[slug]/ProductPurchase.tsx",
+      "app/cart/CartPage.tsx",
+      "app/shop/ShopClient.tsx",
+      "app/CartContext.tsx"
+    ]
+  }
+}
